@@ -9,7 +9,7 @@ def load_data(messages_filepath, categories_filepath):
         messages_filepath: filepath to the messages dataset
         categories_filepath: filepath to the categories dataset
     Output:
-        (DataFrame) df: Merged Pandas dataframe
+        df: Merged Pandas dataframe
     """
     messages = pd.read_csv(messages_filepath)
     categories = pd.read_csv(categories_filepath)
