@@ -1,6 +1,40 @@
 # Disaster Response Pipeline Project
 
-### Instructions:
+
+### 1. Project Overview
+In this project, I built a model for an API that classifies disaster messages.
+
+I used a data set containing real messages that were sent during disaster events and created a machine learning pipeline to categorize these events in order yp send the messages to an appropriate disaster relief agency.
+
+The final result can be found on a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. 
+
+Below are a few screenshots of the web app.
+
+![pic1](pic1.png)
+![pic2](pic2.png)
+
+
+### 2. File Descriptions
+```
+├── README.md
+├── pic.png
+├── pic2.png
+app/
+├── run.py
+templates/
+├── go.html
+├── master.html
+data/
+├── DisasterResponse.db
+├── disaster_categories.csv
+├── disaster_messages.csv
+├── process_data.py
+models/
+├── classifier.pkl
+├── train_classifier.py
+```
+
+### 3. Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
