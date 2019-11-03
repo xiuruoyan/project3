@@ -16,9 +16,9 @@ Below are a few screenshots of the web app.
 
 ### 2. File Descriptions
 ```
-├── README.md
-├── pic.png
-├── pic2.png
+─ README.md
+─ pic.png
+─ pic2.png
 app/
 ├── run.py
 templates/
